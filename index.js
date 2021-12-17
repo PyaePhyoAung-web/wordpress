@@ -38,5 +38,5 @@ app
   
   .all("/login", (r) => r.res.send("pyae"))
   .listen(process.env.PORT || 3000, () => {
-    console.log("Server is working");
+    console.log("Server is starting");
   });
